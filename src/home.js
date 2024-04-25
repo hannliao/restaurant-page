@@ -8,14 +8,12 @@ const home = () => {
 
     homeImg.src = teaImg;
 
-    description.textContent = `We blend tradition with innovation to craft unforgettable Asian-inspired 
-        beverages. Our cozy café specializes in concocting a tantalizing array of drinks that showcase 
-        the rich and diverse flavors of Asia. From refreshing Japanese matcha to creamy Thai tea, each sip 
-        is a journey through the vibrant tastes of the East. Step in and embark on a flavor adventure 
-        unlike any other, where every cup tells a story of cultural fusion and culinary creativity.`;
+    description.textContent = `beverages of cultural fusion and culinary creativity`;
+    description.classList.add("desc");
 
     homeContent.appendChild(homeImg);
     homeContent.appendChild(description);
+    homeContent.classList.add("homeContent");
 
     content.appendChild(homeContent);
 }
