@@ -20,7 +20,6 @@ function buttonListeners() {
                     contact();
                     break;
                 default:
-
                     home();
                     break;
             }
