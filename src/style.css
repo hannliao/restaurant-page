@@ -19,6 +19,7 @@
 
 body {
     height: 100vh;
+    min-width: 1200px;
     display: grid;
     grid-template-rows: 100px 1fr;
 }
@@ -77,11 +78,13 @@ img {
 
 .desc {
     position: absolute;
-    top: 50%;
-    left: 22%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 30%;
+    transform: translate((-50%, -50%));
+    color: white;
     font-size: 24px;
     font-weight: bold;
+    z-index: 100;
 }
 
 .drinks {
@@ -106,4 +109,8 @@ img {
 
 .sections * {
     padding: 20px;
+}
+
+button:hover {
+    cursor: pointer;
 }
