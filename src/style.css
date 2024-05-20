@@ -1,11 +1,12 @@
 @font-face {
     font-family: "jellee";
-    src: url("./Jellee-Bold.woff2") format("woff2"),
-        url("./Jellee-Bold.woff") format("woff");
+    src: url("./fonts/Jellee-Bold.woff2") format("woff2"),
+        url("./fonts/Jellee-Bold.woff") format("woff");
 }
 
 :root {
     --green: rgb(115, 141, 89);
+    --lightgreen: rgb(217, 227, 205);
     --brown: rgb(92, 62, 33);
 }
 
@@ -43,7 +44,7 @@ h1 {
     color: white;
 }
 
-button {
+.nav-button {
     padding: 30px;
     border: none;
     font-size: 20px;
@@ -51,8 +52,39 @@ button {
     background-color: transparent;
 }
 
-button:hover {
-    font-weight: bold;
+.menu-div {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    background-color: var(--green);
+    z-index: 1;
+}
+
+.dropdown button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #content {
@@ -64,6 +96,7 @@ button:hover {
     font-size: 16px;
 }
 
+/* home */
 .homeContent {
     width: 100%;
     height: 100vh;
@@ -74,6 +107,28 @@ img {
     width: 100%;
     display: block;
     overflow: hidden;
+}
+
+/* menu */
+
+.menu-info {
+    margin-top: 80px;
+    width: 600px;
+    padding: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.cafes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 80px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--brown);
 }
 
 .desc {
@@ -101,6 +156,18 @@ img {
     grid-column: 2;
 }
 
+.flavors,
+.ice-price {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ice-price {
+    justify-content: space-around;
+}
+
+/* contact */
 .contact {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -111,6 +178,16 @@ img {
     padding: 20px;
 }
 
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
 button:hover {
     cursor: pointer;
+    font-weight: bold;
 }
