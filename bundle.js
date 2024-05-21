@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Jellee-Bold.woff2 */ \"./src/fonts/Jellee-Bold.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Jellee-Bold.woff */ \"./src/fonts/Jellee-Bold.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n    font-family: \"jellee\";\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"woff2\"),\n        url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"woff\");\n}\n\n:root {\n    --green: rgb(115, 141, 89);\n    --lightgreen: rgb(217, 227, 205);\n    --brown: rgb(92, 62, 33);\n}\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n    color: var(--brown);\n}\n\nbody {\n    height: 100vh;\n    min-width: 1200px;\n    display: grid;\n    grid-template-rows: 100px 1fr;\n}\n\nheader {\n    display: grid;\n    grid-template-columns: 2fr 1fr;\n    align-items: center;\n    padding: 10px 50px;\n    background-color: var(--green);\n}\n\nnav {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    align-items: flex-end;\n}\n\nh1 {\n    font-family: \"jellee\", sans-serif;\n    color: white;\n}\n\n.nav-button {\n    padding: 30px;\n    border: none;\n    font-size: 20px;\n    color: white;\n    background-color: transparent;\n}\n\n.menu-div {\n    position: relative;\n    justify-content: center;\n    align-items: center;\n}\n\n#menu {\n    width: 100%;\n}\n\n.dropdown {\n    display: none;\n    position: absolute;\n    top: 100%;\n    left: 50%;\n    transform: translateX(-50%);\n    width: max-content;\n    background-color: var(--green);\n    z-index: 1;\n}\n\n.dropdown button {\n    background-color: transparent;\n    border: none;\n    color: white;\n    padding: 14px;\n    font-size: 16px;\n}\n\n.visible {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\n#content {\n    position: relative;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 16px;\n}\n\n/* home */\n.homeContent {\n    width: 100%;\n    height: 100vh;\n    overflow: hidden;\n}\n\nimg {\n    width: 100%;\n    display: block;\n    overflow: hidden;\n}\n\n/* menu */\n\n.menu-info {\n    margin-top: 80px;\n    width: 600px;\n    padding: 30px;\n    font-style: italic;\n    text-align: center;\n}\n\n.cafes {\n    margin-top: 20px;\n    display: flex;\n    justify-content: space-between;\n}\n\n.header {\n    margin-top: 80px;\n    padding-bottom: 10px;\n    border-bottom: 2px solid var(--brown);\n}\n\n.desc {\n    position: absolute;\n    top: 40%;\n    left: 30%;\n    transform: translate((-50%, -50%));\n    color: white;\n    font-size: 24px;\n    font-weight: bold;\n    z-index: 100;\n}\n\n.drinks {\n    padding: 30px;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    gap: 10px;\n}\n\n.price {\n    justify-self: flex-end;\n    align-self: center;\n    grid-row: 1 / 3;\n    grid-column: 2;\n}\n\n.flavors,\n.ice-price {\n    padding: 30px;\n    display: flex;\n    justify-content: space-between;\n}\n\n.ice-price {\n    justify-content: space-around;\n}\n\n/* contact */\n.contact {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 100px;\n}\n\n.sections * {\n    padding: 20px;\n}\n\n/* footer */\nfooter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 50px;\n    margin-top: 100px;\n}\n\nbutton:hover {\n    cursor: pointer;\n    font-weight: bold;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Jellee-Bold.woff2 */ \"./src/fonts/Jellee-Bold.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Jellee-Bold.woff */ \"./src/fonts/Jellee-Bold.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n    font-family: \"jellee\";\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"woff2\"),\n        url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"woff\");\n}\n\n:root {\n    --green: rgb(115, 141, 89);\n    --lightgreen: rgb(217, 227, 205);\n    --brown: rgb(92, 62, 33);\n}\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n    color: var(--brown);\n}\n\nbody {\n    height: 100vh;\n    min-width: 1200px;\n    display: grid;\n    grid-template-rows: 100px 1fr;\n    overflow-x: hidden;\n}\n\nheader {\n    display: grid;\n    grid-template-columns: 2fr 1fr;\n    align-items: center;\n    padding: 10px 50px;\n    background-color: var(--green);\n}\n\nnav {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    align-items: flex-end;\n}\n\nh1 {\n    font-family: \"jellee\", sans-serif;\n    color: white;\n}\n\n.nav-button {\n    padding: 30px;\n    border: none;\n    font-size: 20px;\n    color: white;\n    background-color: transparent;\n}\n\n.menu-div {\n    position: relative;\n    justify-content: center;\n    align-items: center;\n}\n\n#menu {\n    width: 100%;\n}\n\n.dropdown {\n    display: none;\n    position: absolute;\n    top: 100%;\n    left: 50%;\n    transform: translateX(-50%);\n    width: max-content;\n    background-color: var(--green);\n    z-index: 1;\n}\n\n.dropdown button {\n    background-color: transparent;\n    border: none;\n    color: white;\n    padding: 14px;\n    font-size: 16px;\n}\n\n.visible {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n}\n\n#content {\n    position: relative;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 16px;\n}\n\n/* home */\n.homeContent {\n    width: 100%;\n}\n\n/* image carousel */\n.frame {\n    width: 100vw;\n    height: 1000px;\n    position: relative;\n    white-space: nowrap;\n    overflow: hidden;\n    z-index: 1;\n}\n\n.slideshow {\n    position: absolute;\n    display: flex;\n    width: max-content;\n    height: 1000px;\n    white-space: nowrap;\n    transition: transform 0.5s ease;\n    overflow: hidden;\n}\n\n.slides {\n    height: 1300px;\n    transform: translateY(-10%);\n    overflow: hidden;\n}\n\n.arrows-div {\n    position: absolute;\n    top: 400px;\n    width: 100%;\n    display: flex;\n    justify-content: space-between;\n}\n\n.arrows-div button {\n    border: none;\n    background-color: transparent;\n}\n\n.arrows {\n    width: 40px;\n    height: 40px;\n    margin: 50px;\n    z-index: 2;\n}\n\n/* menu */\n\n.menu-info {\n    margin-top: 80px;\n    width: 600px;\n    padding: 30px;\n    font-style: italic;\n    text-align: center;\n}\n\n.cafes {\n    margin-top: 20px;\n    display: flex;\n    justify-content: space-between;\n}\n\n.header {\n    margin-top: 80px;\n    padding-bottom: 10px;\n    border-bottom: 2px solid var(--brown);\n}\n\n.desc {\n    position: absolute;\n    top: 40%;\n    left: 30%;\n    transform: translate((-50%, -50%));\n    color: white;\n    font-size: 24px;\n    font-weight: bold;\n    z-index: 100;\n}\n\n.drinks {\n    padding: 30px;\n    display: grid;\n    grid-template-columns: 4fr 1fr;\n    gap: 10px;\n}\n\n.price {\n    justify-self: flex-end;\n    align-self: center;\n    grid-row: 1 / 3;\n    grid-column: 2;\n}\n\n.flavors,\n.ice-price {\n    padding: 30px;\n    display: flex;\n    justify-content: space-between;\n}\n\n.ice-price {\n    justify-content: space-around;\n}\n\n/* contact */\n.contact {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 100px;\n}\n\n.sections * {\n    padding: 20px;\n}\n\n/* footer */\nfooter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 50px;\n    margin-top: 100px;\n}\n\nbutton:hover {\n    cursor: pointer;\n    font-weight: bold;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -120,6 +120,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/carousel.js":
+/*!*************************!*\
+  !*** ./src/carousel.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _img_tea_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/tea.jpeg */ \"./src/img/tea.jpeg\");\n/* harmony import */ var _img_teasnyou_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/teasnyou.jpeg */ \"./src/img/teasnyou.jpeg\");\n/* harmony import */ var _img_milkteapeople_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/milkteapeople.jpeg */ \"./src/img/milkteapeople.jpeg\");\n/* harmony import */ var _img_ticafe_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/ticafe.jpeg */ \"./src/img/ticafe.jpeg\");\n/* harmony import */ var _img_miyahara_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/miyahara.jpeg */ \"./src/img/miyahara.jpeg\");\n/* harmony import */ var _img_chevron_back_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/chevron-back.svg */ \"./src/img/chevron-back.svg\");\n/* harmony import */ var _img_chevron_forward_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/chevron-forward.svg */ \"./src/img/chevron-forward.svg\");\n\n\n\n\n\n\n\n\nfunction createImg(src, className) {\n  const img = document.createElement(\"img\");\n  img.src = src;\n  img.classList.add(className);\n  return img;\n}\n\nconst carousel = () => {\n  const frame = document.createElement(\"div\");\n  frame.classList.add(\"frame\");\n\n  const slideshow = document.createElement(\"div\");\n  slideshow.classList.add(\"slideshow\");\n  \n  const images = [_img_tea_jpeg__WEBPACK_IMPORTED_MODULE_0__, _img_teasnyou_jpeg__WEBPACK_IMPORTED_MODULE_1__, _img_milkteapeople_jpeg__WEBPACK_IMPORTED_MODULE_2__, _img_ticafe_jpeg__WEBPACK_IMPORTED_MODULE_3__, _img_miyahara_jpeg__WEBPACK_IMPORTED_MODULE_4__];\n  \n  const slides = images.map((img) => createImg(img, \"slides\"));\n  slides.forEach((slide) => slideshow.appendChild(slide));\n\n  const arrowsDiv = document.createElement(\"div\");\n  arrowsDiv.classList.add(\"arrows-div\");\n\n  let initial = 0;\n  let offset = 0;\n  const imgWidth = 1733;\n  const maxOffset = imgWidth * 4;\n\n  function translateSlide(direction) {\n    if (direction === \"back\" && initial >= 0) {\n      offset = initial - imgWidth;\n    } else if (direction === \"forward\" && initial < maxOffset) {\n      offset = initial + imgWidth;\n    }\n\n    slideshow.style.transform = `translateX(-${offset}px)`;\n    initial = offset;\n  }\n  \n  const prev = document.createElement(\"button\");\n  const prevIcon = createImg(_img_chevron_back_svg__WEBPACK_IMPORTED_MODULE_5__, \"arrows\");\n  prev.appendChild(prevIcon);\n\n  prev.addEventListener(\"click\", () => {\n    translateSlide(\"back\");\n  });\n  \n  const next = document.createElement(\"button\");\n  const nextIcon = createImg(_img_chevron_forward_svg__WEBPACK_IMPORTED_MODULE_6__, \"arrows\");\n  next.appendChild(nextIcon);\n\n  next.addEventListener(\"click\", () => {\n    translateSlide(\"forward\");\n  });\n\n  arrowsDiv.append(prev, next);\n  frame.append(slideshow, arrowsDiv);\n\n  return {\n    slideshow,\n    frame,\n  };\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (carousel);\n\n//# sourceURL=webpack://restaurant-page/./src/carousel.js?");
+
+/***/ }),
+
 /***/ "./src/contact.js":
 /*!************************!*\
   !*** ./src/contact.js ***!
@@ -136,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _tea_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tea.jpeg */ \"./src/tea.jpeg\");\n\n\nconst home = () => {\n    const content = document.querySelector(\"#content\");\n    const homeContent = document.createElement(\"div\");\n    \n    const homeImg = document.createElement(\"img\");\n    homeImg.src = _tea_jpeg__WEBPACK_IMPORTED_MODULE_0__;\n\n    homeContent.appendChild(homeImg);\n    homeContent.classList.add(\"homeContent\");\n\n    content.appendChild(homeContent);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./carousel */ \"./src/carousel.js\");\n\n\nconst home = () => {\n    const content = document.querySelector(\"#content\");\n    const homeContent = document.createElement(\"div\");\n    \n    const { slideshow, frame } = (0,_carousel__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n    homeContent.append(slideshow, frame);\n    homeContent.classList.add(\"homeContent\");\n\n    content.appendChild(homeContent);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -180,13 +190,73 @@ eval("module.exports = __webpack_require__.p + \"d2e2d8b9e4d8c214fcd1.woff2\";\n
 
 /***/ }),
 
-/***/ "./src/tea.jpeg":
-/*!**********************!*\
-  !*** ./src/tea.jpeg ***!
-  \**********************/
+/***/ "./src/img/chevron-back.svg":
+/*!**********************************!*\
+  !*** ./src/img/chevron-back.svg ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"dd01c6a6134822251dd9.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/tea.jpeg?");
+eval("module.exports = __webpack_require__.p + \"7fcb39fba2c3761dbb72.svg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/chevron-back.svg?");
+
+/***/ }),
+
+/***/ "./src/img/chevron-forward.svg":
+/*!*************************************!*\
+  !*** ./src/img/chevron-forward.svg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c5978f1636155d749532.svg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/chevron-forward.svg?");
+
+/***/ }),
+
+/***/ "./src/img/milkteapeople.jpeg":
+/*!************************************!*\
+  !*** ./src/img/milkteapeople.jpeg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2119da58b90e393c2f0f.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/milkteapeople.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/miyahara.jpeg":
+/*!*******************************!*\
+  !*** ./src/img/miyahara.jpeg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8be28d6f6b372a504464.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/miyahara.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/tea.jpeg":
+/*!**************************!*\
+  !*** ./src/img/tea.jpeg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fcb21cd8a521f8c905c3.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/tea.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/teasnyou.jpeg":
+/*!*******************************!*\
+  !*** ./src/img/teasnyou.jpeg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1024d0160acea01452bd.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/teasnyou.jpeg?");
+
+/***/ }),
+
+/***/ "./src/img/ticafe.jpeg":
+/*!*****************************!*\
+  !*** ./src/img/ticafe.jpeg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6476727b24ebbf3de977.jpeg\";\n\n//# sourceURL=webpack://restaurant-page/./src/img/ticafe.jpeg?");
 
 /***/ })
 
