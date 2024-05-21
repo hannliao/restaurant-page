@@ -1,13 +1,12 @@
-import teaImg from "./tea.jpeg"
+import carousel from "./carousel";
 
 const home = () => {
     const content = document.querySelector("#content");
     const homeContent = document.createElement("div");
     
-    const homeImg = document.createElement("img");
-    homeImg.src = teaImg;
+    const { slideshow, frame } = carousel();
 
-    homeContent.appendChild(homeImg);
+    homeContent.append(slideshow, frame);
     homeContent.classList.add("homeContent");
 
     content.appendChild(homeContent);
