@@ -10,7 +10,7 @@ const contact = () => {
         },
         {
             title: "hours",
-            text: "Mondays - Saturdays<br>7:00 am - 7:00 pm",
+            text: "Monday - Saturday<br>7:00 am - 7:00 pm<br><br>Sunday - closed",
         },
         {
             title: "contact",

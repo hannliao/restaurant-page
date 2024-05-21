@@ -2,6 +2,7 @@ import "./style.css"
 import home from "./home.js";
 import menu from "./menu.js";
 import contact from "./contact.js"
+import githubMark from "./img/github-mark.svg"
 
 function buttonListeners() {
     const content = document.querySelector("#content");
@@ -47,6 +48,11 @@ function buttonListeners() {
         dropdown.classList.remove("visible");
     });
 }
+
+const link = document.querySelector("footer a");
+const github = document.createElement("img");
+github.src = githubMark;
+link.appendChild(github);
 
 home();
 buttonListeners();
